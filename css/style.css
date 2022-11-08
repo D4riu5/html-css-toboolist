@@ -6,5 +6,22 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(205, 200, 200);
 }
 
+
+#header-container{
+    height: 10%;
+    background-color: white;
+}
+#logo{
+    vertical-align: middle;
+    padding: 10px 5px 10px 30px;
+}
+
+.logo-text::after{
+    content: ' Toboolist'; 
+    font-size: 42px;
+    font-weight: 700;
+    vertical-align: middle;
+}
