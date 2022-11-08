@@ -4,12 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(205, 200, 200);
 }
 
-
+/* header start */
 #header-container{
     height: 10%;
     background-color: white;
@@ -18,10 +19,38 @@ body{
     vertical-align: middle;
     padding: 10px 5px 10px 30px;
 }
+/* header end */
 
+/* buttons section start */
 .logo-text::after{
     content: ' Toboolist'; 
     font-size: 42px;
     font-weight: 700;
     vertical-align: middle;
+}
+
+#buttons-container{
+    width: 70%;
+    margin: 5% auto;
+    padding: 1% 50% 1% 3%;
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#task{
+    background-color: rgb(44, 145, 227);
+    padding: 2%;
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+    margin-right: 1%;
+}
+
+#section{
+    background-color: white;
+    padding: 2%;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 6px;
 }
